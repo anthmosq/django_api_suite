@@ -24,4 +24,5 @@ urlpatterns = [
     path("", include("homepage.urls")),
     path("homepage/", include("homepage.urls")),
     path("demo/rest/api/", include(("demo_rest_api.urls", "demo_rest_api"), namespace="demo_rest_api")),
+    path("landing/api/", include("landing_api.urls")),
 ]
